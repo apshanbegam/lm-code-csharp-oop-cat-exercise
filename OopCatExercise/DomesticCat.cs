@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace OopCatExercise
 {
 	public class DomesticCat: Cat
@@ -9,9 +11,19 @@ namespace OopCatExercise
 
 		public override string Eat()
 		{
-			return "Purrrrrrr";
-		}
 
+			Random rd = new Random();
+			int RandomNumber = rd.Next(1, 10);
+			Console.WriteLine(RandomNumber);
+			if (RandomNumber == 3)
+			{
+				return "It will do I suppose";
+			}
+			else
+			{
+				return "Purrrrrrr";
+			}
+		}
 	}
 }
 

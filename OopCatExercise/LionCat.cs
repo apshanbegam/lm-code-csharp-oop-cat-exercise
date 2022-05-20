@@ -3,7 +3,7 @@ namespace OopCatExercise
 {
 	public class LionCat : Cat
 	{
-		public LionCat() : base(averageHeight: 30, setting: "wild")
+		public LionCat() : base(averageHeight: 1100, setting: "wild")
 		{
 		}
 
